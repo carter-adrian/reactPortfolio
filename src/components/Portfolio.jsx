@@ -1,38 +1,48 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import javaQuiz from "../assets/portfolio/JavaQuiz.jpg";
+import passwordGen from "../assets/portfolio/PasswordGen.jpg";
+import weatherApp from "../assets/portfolio/weatherApp.jpg";
+import workScheduler from "../assets/portfolio/workScheduler.jpg";
+import TG from "../assets/portfolio/TG.jpg";
+import noteTaker from "../assets/portfolio/noteTaker.jpg";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
-      demo: "https://disneyworld.disney.go.com/",
-      code: "https://www.universalorlando.com/web/en/us",
+      src: javaQuiz,
+      demo: "https://carter-adrian.github.io/Quiz/",
+      code: "https://github.com/carter-adrian/Quiz",
     },
     {
       id: 2,
-      src: reactParallax,
+      src: passwordGen,
+      demo: "https://github.com/carter-adrian/Password_Create",
+      code: "https://carter-adrian.github.io/Password_Create/",
     },
     {
       id: 3,
-      src: navbar,
+      src: weatherApp,
+      demo: "https://carter-adrian.github.io/weather_app/",
+      code: "https://github.com/carter-adrian/weather_app",
     },
     {
       id: 4,
-      src: reactSmooth,
+      src: workScheduler,
+      demo: "https://carter-adrian.github.io/scheduler_project/",
+      code: "https://github.com/carter-adrian/scheduler_project",
     },
     {
       id: 5,
-      src: installNode,
+      src: TG,
+      demo: "https://drive.google.com/file/d/1LEqWVdmeX1WPRxA1_ICcAQA52fT36ZpP/view",
+      code: "https://github.com/carter-adrian/Team_Generator",
     },
     {
       id: 6,
-      src: reactWeather,
+      src: noteTaker,
+      demo: "https://carter-adrian.github.io/Note_Taker/",
+      code: "https://github.com/carter-adrian/Note_Taker",
     },
   ];
 
@@ -43,7 +53,7 @@ const Portfolio = () => {
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p className="text-4xl font-bold inline border-b-4 border-amber-500">
             Portfolio
           </p>
           <p className="py-6">Check out some of my work right here</p>

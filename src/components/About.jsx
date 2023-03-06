@@ -5,15 +5,13 @@ const About = () => {
     <div name='about' className='w-full h-screen bg-gradient-to-b bg-gradient-to-b from-cyan-500 via-cyan-500 to-amber-300 text-white'>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 border-yellow-800' >About</p>
+                <p className='text-4xl font-bold inline border-b-4 border-amber-500' >About</p>
             </div>
             <p className='text-xl mt-20'>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum quae quibusdam commodi sed veniam, sit, ratione autem, repudiandae necessitatibus beatae culpa amet unde dolore deleniti enim deserunt! Ducimus temporibus eaque alias, praesentium recusandae ad accusantium delectus quia atque quas id repudiandae culpa eius quisquam cupiditate sunt iure hic harum quaerat!
-            </p>
+            Hello! My name is Adrian. I am husband and a father of two and love spending a lot of time with my family. I used to be a teacher for fifteen years.  I taught primarily in Japan and the United Arab Emirates. When my family came back to the US, I decided I would follow my dream and become a web developer. I am happy to say I have completed my goal and am now entering the work force.             </p>
             <br />
             <p className='text-xl'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nulla delectus temporibus ut consectetur? Praesentium pariatur commodi inventore amet laudantium distinctio in accusantium eaque, nobis eum tenetur dolores at ipsam deserunt nemo ea a quam atque sed! Harum, nostrum atque, itaque consequatur nihil explicabo ea dolorum reiciendis odit aspernatur dolores.
-            </p>
+            I am interested in learning more about UI, but all areas interest me. I love hearing about projects and what people can imagine and I want to be a part of the process and make the dream a reality. Please get in touch with me and let me know what you’re working on. I would love to help.            </p>
         </div>
     </div>
   )
